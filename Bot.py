@@ -34,7 +34,7 @@ async def start(event):
     if not event.is_private:
         return await event.respond("ɪ ᴀᴍ ᴀʟɪᴠᴇ 🥺")
     await event.reply(
-        "BEN BEYDA ETİKET BOTU\n\n✪ ɪ ᴀᴍ ᴀʟᴇxᴀ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ᴀsᴀᴅ ᴀʟɪ](https://t.me/adsizkaptan)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴀʟᴇxᴀ ʜᴇʟᴘ](https://t.me/doguturkblogu)┓\n┣★ ʀᴇᴘᴏ › : [ᴀʟᴇxᴀ ʀᴇᴘᴏ](https://t.me/bykral_bey)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/kizilsancak06) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ Ben gruplarınızı Spamdan koruyan basit tabanlı oluşum ölçekli bir Tagger botum Adım Beyda \n✪ Destek Komutum /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [KAPTAN](https://t.me/adsizkaptan)\n┣★ BLOK › : [DESTEK](https://t.me/doguturkblogu)┓\n┣★ ABİM › : [BY KRAL BEY](https://t.me/bykral_bey)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 Artık Ablanız Burada \nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/kizilsancak06) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
         link_preview=False,
         buttons=(
             [
@@ -44,12 +44,12 @@ async def start(event):
                 ),
             ],
             [
-                Button.url("☀︎︎ ɢʀᴏᴜᴘ ☀︎︎︎", "https://t.me/adsizblog"),
-                Button.url("☀︎︎ ᴄʜᴀɴɴᴇʟ ☀︎︎", "https://t.me/adsizkaptan"),
+                Button.url("🇹🇷 Grubumuz 🇹🇷", "https://t.me/kizilsancak06"),
+                Button.url("🇹🇷 Kanalımız 🇹🇷", "https://t.me/Doguturkblogu"),
             ],
             [
-                Button.url("☀︎︎ ʙʀᴏ ☀︎︎️️", "https://t.me/adsizblog"),
-                Button.url("☀︎︎ ᴋɪɴɢ ☀︎︎︎", "https://t.me/doguturkblogu"),
+                Button.url("🇹🇷 ADSIZ KAPTAN 🇹🇷", "https://t.me/adsizkaptan"),
+                Button.url("🇹🇷 Türk Doğu Bloğu 🇹🇷", "https://t.me/doguturkblogu"),
             ],
         ),
     )
@@ -66,8 +66,8 @@ async def help(event):
         link_preview=False,
         buttons=(
             [
-                Button.url("☀︎︎ ʜᴇᴀʀᴛ", "https://t.me/ADSizKaptan"),
-                Button.url("ʏᴏᴜᴛᴜʙᴇ ☀︎︎", "https://t.me/doguturkblogu"),
+                Button.url("🇹🇷 KAPTAN 🇹🇷", "https://t.me/ADSizKaptan"),
+                Button.url("🇹🇷 BLOG 🇹🇷", "https://t.me/doguturkblogu"),
             ]
         ),
     )
@@ -78,14 +78,14 @@ async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
-    helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀʟᴇxᴀ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴀsᴀᴅ ᴀʟɪ](https://t.me/adsizkaptan)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʀᴏᴄᴋs\n✪ ʏᴏᴜᴛᴜʙᴇ [ᴄʜᴀɴɴᴇʟ](https://t.me/bykral_bey)\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
+    helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀʟᴇxᴀ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [🇹🇷 KAPTAN 🇹🇷](https://t.me/adsizkaptan)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʀᴏᴄᴋs\n✪ ʏᴏᴜᴛᴜʙᴇ [🇹🇷 SİYAHİNCİ 🇹🇷](https://t.me/bykral_bey)\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
     await event.reply(
         helptext,
         link_preview=False,
         buttons=(
             [
-                Button.url("☀︎︎ ʜᴇᴀʀᴛ", "https://t.me/adsizkaptan"),
-                Button.url("ʏᴏᴜᴛᴜʙᴇ ☀︎︎", "https://t.me/kizilsancak06"),
+                Button.url("🇹🇷 KAPTAN 🇹🇷", "https://t.me/adsizkaptan"),
+                Button.url("🇹🇷 GRUP 🇹🇷", "https://t.me/kizilsancak06"),
             ]
         ),
     )
